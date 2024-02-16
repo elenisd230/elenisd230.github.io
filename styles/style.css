@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+	background: rgba(217, 217, 217, 1);
+
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1rem;
+	margin: 10px 0;
+	line-height: 1.5em;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* Utility Classes */
+.container {
+	margin: auto;
+	max-width: 1300px;
+	overflow: auto;
+	padding: 0 20px;
+    color: black;
+}
+
+.large {
+	font-size: 1.25rem;
+}
+
+.display-1 {
+	font-size: 5.5rem;
+	font-weight: 300;
+}
+
+.display-2 {
+	font-size: 3rem;
+	font-weight: 300;
+	text-transform: capitalize;
+}
+
+.display-3 {
+	font-size: 3.5rem;
+	font-weight: 300;
+}
+
+.btn {
+	display: inline-block;
+	font-size: 15px;
+	padding: 12px 23px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	border-radius: 50px;
+	width: 250px;
+	text-align: center;
+}
+
+.btn-red-outline {
+	background: rgba(222, 91, 91, 0.85);
+	border: none;
+	color: #fff;
+	text-transform: capitalize;
+	font-weight: 400;
+}
+
+.btn-red {
+	background: #dd2e0d;
+	border: 2px solid #dd2e0d;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.btn-outline {
+	background: transparent;
+	border: 2px solid #fff;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+/* Mainheader */
+#mainheader {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+/* Navbar */
+#navbar {
+	overflow: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+    color: black;
+}
+
+#navbar a {
+    color: black;
+
+}
+#navbar a:active {
+    color: #DE5B5B;
+
+}
+
+#navbar .logo {
+	font-family: 'Dancing Script', cursive;
+	float: left;
+	font-size: 40px;
+}
+
+#navbar ul {
+	list-style: none;
+	float: right;
+}
+
+#navbar ul li {
+	float: left;
+}
+
+#navbar ul li a {
+	display: block;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Navbar red */
+.navbar-red {
+	background: #a3000d;
+}
+
+/* Showcase */
+#showcase {
+	text-align: center;
+	padding-top: 200px;
+	color: #fff;
+}
+
+#showcase p {
+	padding: 12px 0;
+	color: black;
+}
+
+/* Valentine */
+#valentine {
+	
+	padding: 80px 0;
+	
+}
+.imagen{
+	height:auto;
+	width: 100%;
+}
